@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.SendEmailFragment">
+
+    <LinearLayout
+        android:background="@color/banafshRoshan"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView
+            app:cardElevation="0dp"
+            app:cardCornerRadius="20dp"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp">
+            <LinearLayout
+                android:paddingBottom="20dp"
+                android:paddingRight="15dp"
+                android:paddingTop="25dp"
+                android:textDirection="rtl"
+                android:layoutDirection="rtl"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textStyle="bold"
+                    android:fontFamily="@font/vazir"
+                    android:text="در خواست کپی پنک سواپ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:textSize="11sp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/vazir"
+                    android:text="بصورت اتوماتیک معاملات تیم را کپی کنید"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <View
+                    android:layout_marginTop="10dp"
+                    android:background="@color/BlackOpacity80"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+                <EditText
+                    android:id="@+id/phoneNumber"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/vazir"
+                    android:hint="شماره تماس"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/edittext_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:id="@+id/fullName"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/vazir"
+                    android:hint="نام و نام خانوادگی"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/edittext_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:id="@+id/wallet"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/vazir"
+                    android:hint="انتخاب کیف پول"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/edittext_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:id="@+id/key"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/vazir"
+                    android:hint="کلید خصوصی"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/edittext_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <CheckBox
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/vazir"
+                    android:textSize="20sp"
+                    android:id="@+id/karmozd"
+                    android:text="کارمزد از سود 10 درصد"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <CheckBox
+                    android:id="@+id/ghavanin"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/vazir"
+                    android:text="تمام قوانین"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/submit"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:background="@drawable/submit_btn_style"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/vazir"
+                    android:textSize="20sp"
+                    android:text="ارسال درخواست"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</FrameLayout>

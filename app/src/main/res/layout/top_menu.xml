@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:textDirection="rtl"
+    android:background="@color/white"
+    android:layoutDirection="rtl"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize">
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:textDirection="rtl"
+        android:layoutDirection="rtl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/header"
+            android:textStyle="bold"
+            android:fontFamily="@font/enfont"
+            android:text="pancakeSwapSignal"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</RelativeLayout>
